@@ -18,5 +18,3 @@ try{
 
 echo '<br>';
 echo 'FINAL';
-
-echo "outra mudança";
