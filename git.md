@@ -2,6 +2,9 @@
 - O que é
 - Iniciar um repositório
 - Versionamento
-  - Envio (commit e pull)
+  - Envio  
+    - commit
+    - push
   - Busca (pull )
 - Branchs
+ajdvkasj
