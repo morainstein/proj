@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+
+</style>
+<body>
+  
+  <form action="">
+    <label>Senha: <input id="senha" type="password"><span id="showHide">OOOOo</span></label>
+    <input type="submit">
+  </form>
+
+  <script>
+    const form = document.querySelector('form')
+    const senha = document.querySelector('#senha')
+    const showHide = document.querySelector('#showHide')
+
+    showHide.addEventListener('click',()=>{
+      if(senha.getAttribute('type') == 'password'){
+        senha.setAttribute('type','text')
+      }else{
+        senha.setAttribute('type','password')
+      }
+    })
+
+    // form.addEventListener('submit',(event)=>{
+    //   event.preventDefault()
+      
+    //   event.target.submit()
+    // })
+
+
+  </script>
+</body>
+</html>
